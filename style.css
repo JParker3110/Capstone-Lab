@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+#myh1{
+  margin-top: 25px;
+  border: solid;
+  padding: 25px;
+  background-color: salmon;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif; 
+}
+.body {
+  background-color: gray;
+}
+#cars{
+  margin-top: 25px; 
+  font-style: oblique ; 
+  color:purple;
+  font-family: Times, Helvetica, sans-serif;
+}
+#home{
+  color:black
+}
+#SR{
+  color:black
+}
+img{
+  border-style: solid;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+} 
