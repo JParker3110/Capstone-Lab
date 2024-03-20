@@ -45,18 +45,30 @@ function createTable (company){
   myTable.style.display = "table";
 }
 
-// const buttonOne = document.getElementById("bton1")
-// buttonOne.addEventListener("click",()=> {
-//   alert("You have purchased an Audi Q8 Prestige 2020")
-// } );
+const buttonOne = document.getElementById("bton1")
+buttonOne.addEventListener("click",()=> {
+  alert("Great choice! You are one step closer to your dream car!")
+} );
 
-// const buttonTwo = document.getElementById("bton2")
-// buttonOne.addEventListener("click",()=> {
-//   alert("You have purchased a Mercedes-Benz GLE AMG 43 4matic Coupe 2019")
-// } );
+const buttonTwo = document.getElementById("bton2")
+buttonOne.addEventListener("click",()=> {
+  // alert("Great choice! You are one step closer to your dream car! ")
+} );
 
-// const buttonThree = document.getElementById("bton3")
-// buttonOne.addEventListener("click",()=> {
-  
-// } );  
+const buttonThree = document.getElementById("bton3")
+buttonOne.addEventListener("click",()=> {
+} );  
 
+function filtercompany() {
+  document.getElementById("myDropdown");
+  let companydivs = document.querySelectorAll(".dropdown-content")
+  for(let i = 0; i < companydivs.length; i++)
+    if (companydivs[i].style.display === "block"){
+      companydivs[i].style.display = "none";
+    } else{
+      companydivs[i].style.display = "block";
+    }
+ //this function should change the display property of the div around companys
+  //If display is currently "none",then change display to block 
+  //If display is currenlty "blocked", then change to none
+}
