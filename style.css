@@ -12,31 +12,43 @@ html {
   background-color: salmon;
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif; 
+  font-size:65px;
 }
 .body {
   background-color: gray;
+  font-size: 20px;
 }
 #cars{
   margin-top: 25px; 
   font-style: oblique ; 
-  color:purple;
+  background-color:salmon; 
+  border: solid;
   font-family: Times, Helvetica, sans-serif;
+  font-size: 70px;
 }
 #home{
-  color:black
+  color:black;
+  font-size:30px;
+  
 }
 #SR{
-  color:black
+  color:black;
+  font-size:30px;
 }
 img{
   border-style: solid;
 }
 
-.mt-0 {
+/* .mt-0 {
   margin-top: 0 !important;
-} 
+}  */
 
 
 .dropdown-content {
   display: none;
+}
+#myDropdown{
+  margin-bottom: 25px;
+  font-size: 30px;
+
 }

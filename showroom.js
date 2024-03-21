@@ -52,7 +52,7 @@ buttonOne.addEventListener("click",()=> {
 
 const buttonTwo = document.getElementById("bton2")
 buttonOne.addEventListener("click",()=> {
-  // alert("Great choice! You are one step closer to your dream car! ")
+
 } );
 
 const buttonThree = document.getElementById("bton3")
