@@ -38,7 +38,7 @@ function createTable (company){
    }
 
  }
-  const myTableBody =document.getElementById("table-body");
+  const myTableBody = document.getElementById("table-body");
   myTableBody.innerHTML = tableBody;
 
   const myTable = document.getElementById("table1");
